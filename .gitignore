@@ -1,0 +1,25 @@
+# Compiled Binaries & Objects
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+build/
+bin/
+out/
+
+# IDE & Editor files
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+*.user
+.idea/
+cmake-build-*/
+
+# OS generated files
+Thumbs.db
+.DS_Store
