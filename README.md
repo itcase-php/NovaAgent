@@ -1,4 +1,4 @@
-# NovaAgent —— 轻量级 C++ 原生智能体调度核心
+NovaAgent —— 轻量级 C++ 原生智能体调度核心
 
 [![Language](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)](https://en.cppreference.com/w/cpp/17)
 [![Build](https://img.shields.io/badge/Build-CMake-orange.svg)](https://cmake.org/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 核心功能与特性
+核心功能与特性
 
 1. **ReAct 决策闭环与防死循环保护**
    - 实现“感知（输入入队）➔ 推理（意图解析）➔ 行动（工具调度）➔ 反思（结果包装）”的完整调度闭环；
@@ -29,7 +29,7 @@
 
 ---
 
-## 📂 项目结构
+项目结构
 
 ```text
 NovaAgent/
@@ -49,9 +49,9 @@ NovaAgent/
 
 ---
 
-## 🛠️ 编译与运行
+编译与运行
 
-### 方式 1：使用 CMake 构建（推荐）
+方式 1：使用 CMake 构建（推荐）
 
 ```bash
 # 1. 生成构建目录
@@ -66,7 +66,7 @@ cmake --build build
 .\build\NovaAgent.exe       # Windows MinGW
 ```
 
-### 方式 2：使用 g++ 命令行直接编译
+方式 2：使用 g++ 命令行直接编译
 
 ```bash
 g++ -std=c++17 -Wall -Wextra *.cpp -o NovaAgent
@@ -75,7 +75,7 @@ g++ -std=c++17 -Wall -Wextra *.cpp -o NovaAgent
 
 ---
 
-## 🖥️ 运行效果示例
+运行效果示例
 
 ```text
 ===============================================================
@@ -102,9 +102,3 @@ g++ -std=c++17 -Wall -Wextra *.cpp -o NovaAgent
 引擎子系统 [core_engine] -> 运行时内存占用: 12.4MB, CPU开销: 0.8%, 渲染帧率: 144 FPS, 状态: ACTIVE_OPTIMAL.
 系统诊断与任务执行完成，状态处于健康水平。
 ```
-
----
-
-## 📄 License
-
-本项目基于 [MIT](LICENSE) 协议开源。
